@@ -56,4 +56,32 @@ body, html {
     background: rgb(111, 0, 255);
     transform: scale(1.1);
   }
+  .navbar {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    background-color: rgba(0, 255, 255, 0.1);
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #0ff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  .navbar a:hover {
+    color: #fff;
+    transform: scale(1.1);
+  }
+  
+
   
